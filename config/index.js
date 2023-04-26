@@ -96,14 +96,12 @@ export const data = [
   }
 ]
 
-// 获取小数位的长度
 function digitLen(num) {
   let decimal = num.toString().split('.')[1]
   if (decimal) return decimal.length
   return 0
 }
 function calc(a, operation, b) {
-  // 算出最小的，能将两个数转换为整数的10的次方
   let common = 10 ** Math.max(digitLen(a), digitLen(b))
   let res
   switch (operation) {
