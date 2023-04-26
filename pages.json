@@ -1,0 +1,13 @@
+{
+	"pages": [
+		{
+			"path": "pages/index",
+			"style": { "navigationStyle": "custom", "app-plus": { "bounce": "none" } }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#333333"
+	},
+	"uniIdRouter": {}
+}

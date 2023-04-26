@@ -1,0 +1,62 @@
+view {
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: $bg;
+	overflow: hidden;
+	.input {
+		width: 100%;
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		font-size: 60rpx;
+		color: $w;
+		font-weight: 600;
+		padding: 0 12.5%;
+	}
+	.keyboard {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 24rpx;
+		&-item {
+			width: 25%;
+			padding: 12rpx;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&.span-2 {
+				width: 50%;
+				.keyboard-item__inner {
+					width: 100%;
+					justify-content: flex-start;
+					padding-left: 54rpx;
+					border-radius: 72rpx;
+				}
+			}
+			&__inner {
+				width: 144rpx;
+				height: 144rpx;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				line-height: 1;
+				font-size: 60rpx;
+				font-weight: 600;
+				border-radius: 50%;
+				background: $o;
+				color: $w;
+				&.grey-1 {
+					background: $sub;
+				}
+				&.grey-2 {
+					background: $main;
+				}
+			}
+		}
+	}
+}

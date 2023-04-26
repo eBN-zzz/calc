@@ -1,0 +1,13 @@
+{
+  "hash": "196917ec",
+  "browserHash": "4186c2a4",
+  "optimized": {
+    "big.js": {
+      "src": "../../node_modules/big.js/big.mjs",
+      "file": "big__js.js",
+      "fileHash": "fa3aca1a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}
